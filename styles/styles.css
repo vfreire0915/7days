@@ -1,0 +1,29 @@
+@import url("header.css");
+@import url("principal.css");
+@import url("profissoes.css");
+@import url("colaborador.css");
+@import url("rodape.css");
+
+:root {
+    --branco: #FFFFFF;
+    --fonte: "Inter";
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --preto-titulo: #101828;
+    --cinza-borda: #EAECF0;
+    --fundo-colaborador: rgba(196, 25, 25, 0.03);
+    --cinza-copy: #98A2B3;
+    --cinza-rodape: #F9FAFB;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight: 500;
+}

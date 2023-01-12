@@ -1,0 +1,57 @@
+.informacoes {
+    text-align: center;
+    padding: 2em;
+}
+
+.informacoes__numeros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 3.5em;
+    padding: 0 3em;
+}
+
+.informacoes__titulo {
+    margin: 0.5em 0;
+    font-size: 48px;
+    color: var(--preto-titulo);
+    font-weight: 600;
+}
+
+.informacoes__texto {
+    width: 75%;
+    margin: 0 auto 5em auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.numeros__titulo {
+    margin: 0.5em 0;
+    color: var(--preto-titulo);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.numeros__container {
+    text-align: justify;
+    margin-bottom: 8em;
+}
+
+.topico {
+    font-size: 16px;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.numeros {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.numeros__descricao {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 16px;
+}
